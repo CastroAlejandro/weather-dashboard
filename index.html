@@ -22,7 +22,7 @@
 				<div class="col-3 border text-center">
 					<label class="font-weight-bold">Enter a City</label>
 					<div class="input-group mb-3">
-						<input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2">
+						<input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2" id="citySearch">
 						<button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
 					</div>
 					<ul class="list-group">
@@ -33,15 +33,15 @@
 						<li class="list-group-item"	id="city 5">Vestibulum at eros</li>
 					  </ul>	 
 				</div>
-				<div class="col-9 border">
+				<div class="col-9 border" id=displayForecast>
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col border">
-								<div class="label">Current City</div>
-								<div class="label">Current City</div>
-								<div class="label">Current City</div>
-								<div class="label">Current City</div>
-								<div class="label">Current City</div>
+								<div class="label font-weight-bold" id="currentCity"></div>
+								<div class="label" id="temperature"></div>
+								<div class="label" id="humidity"></div>
+								<div class="label" id="windSpeed"></div>
+								<div class="label" id="uvIndex"></div>
 							</div>
 						</div>
 					</div>
